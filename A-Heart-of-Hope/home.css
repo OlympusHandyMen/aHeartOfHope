@@ -90,3 +90,22 @@ html, body {
 	margin-left: 42%;
 }
 
+.socialMedia {
+	margin-right: 5%;
+	float: right;
+}
+
+.contactInfo {
+	margin-top: 5%;
+	background-color: #927B98;
+}
+
+.info {
+	color: #FFFFFF;
+	margin-right: 12%;
+	float: right;
+}
+
+.mail {
+	color: #FFFFFF;
+}
