@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+html {
+	height: 100%;
+	font-family: "Arial", Times, serif; 
+}
+
+a {
+	text-decoration: none;
+	color: #7D7D7D;
+	
+}
+
+a:hover {
+	color: #800080;
+	transition: all.6s ease;
+}
+
+body {
+	background-color: #EED7F4;
+}
+
+ #mHat {
+ 	box-shadow: 10px 8px 4px #A4A4A4;
+	background-color: #FFFFFF;
+	padding: 1%;
+	
+}
+
+#home, #about_us, #projects, #domestic_abuse, #blog, #donate, #special_thanks, #contact, #video {
+	font-size: 1.8em;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+ #home:hover, #about_us:hover, #projects:hover, #domestic_abuse:hover, #blog:hover, #donate:hover, #special_thanks:hover, #contact:hover, #video:hover {
+ 	padding: 1%;
+	background-color: #EED7F4;
+
+}
+
+
+.wrapper {
+	display: flex;
+}
+
+.col {
+	margin-left: 7.5%;
+	color: #5A5A5A;
+	width: 20%;
+	padding: 20px;
+}
+
+.col1 {
+	margin-top: 20%;
+	margin-left: 7.5%;
+	font-size: 2em;
+	color: #800080;
+	background-color: #FFFFFF;
+}
+
+html, body {
+  height: 100%;
+}
+
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -90px; 
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.site-footer, .page-wrap:after {
+  height: 90px; 
+}
+
+.site-footer {
+	background: #EED7F4;
+}
+
+.footer-text {
+	margin-top: 8%;
+	color: #800080;
+	margin-left: 42%;
+}
+
+.socialMedia {
+	margin-right: 5%;
+	float: right;
+}
+
+.contactInfo {
+	margin-top: 5%;
+	background-color: #927B98;
+}
+
+.info {
+	color: #FFFFFF;
+	margin-right: 12%;
+	float: right;
+}
+
+.mail {
+	color: #FFFFFF;
+}
