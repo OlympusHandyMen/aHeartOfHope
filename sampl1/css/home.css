@@ -1,0 +1,141 @@
+* {
+	
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+html {
+	height: 100%;
+	font-family: "Arial", Times, serif; 
+}
+
+a {
+	text-decoration: none;
+	color: #7D7D7D;
+}
+
+a:hover {
+	color: #800080;
+	transition: all.6s ease;
+}
+
+.row {
+	display: flex;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.Wrapper {
+
+}
+
+.Hat-main {
+	height: 150px;
+	background-color: #EED7F4;
+	margin-bottom: 0.5%;
+}
+
+#home, #about_us, #projects, #blog, #donate, #special_thanks, #contact, #video {
+	font-size: 1.8em;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+#home:hover, #about_us:hover, #projects:hover, #blog:hover, #donate:hover, #special_thanks:hover, #contact:hover, #video:hover {
+ 	padding: 1%;
+}
+
+.ImageTopMain {
+	object-fit: contain;
+}
+
+.PromoImage {
+	padding-left: 12.5%;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.Text-color {
+	color: #5A5A5A;
+}
+
+.Text-head {
+	color: #800080;
+	margin-top: 3%;
+	margin-left: 35%;
+	margin-bottom: 3%;
+	font-size: 30px;
+}
+
+.Text-main-1 {
+	min-height: 200px;
+	background-color: #EED7F4;
+	width: 33%;
+	float: left;
+	margin-bottom: 1%;
+	font-size: 20px;
+}
+
+.Text-main-2 {
+	min-height: 200px;
+	background-color: #EED7F4;
+	width: 33%;
+	float: left;
+	margin-left: 0.5%;
+	margin-bottom: 1%;
+	font-size: 20px;
+}
+
+.Text-main-3 {
+	min-height: 200px;
+	background-color: #EED7F4;
+	width: 33%;
+	float: left;
+	margin-left: 0.5%;
+	margin-bottom: 1%;
+	font-size: 20px;
+}
+
+.Contact-Wrapper {
+	display: flex;
+	background-color: #927B98;
+}
+
+.ContactInfo {
+	width: 80%;
+}
+
+.Contacts {
+	color: #FFFFFF;
+	margin-right: 12%;
+	float: right;
+}
+
+.Contacts a {
+	color: #C7C7C7;
+}
+
+.Contacts a:hover {
+	color: #800080;
+	transition: all.6s ease;
+}
+.SocialMedia {
+	margin-top: 3%;
+	float: right;
+	width: 20%;
+}
+
+.Site-Footer {
+
+}
+
+.Copyright {
+	margin-top: 7%;
+	color: #800080;
+	margin-left: 40%;
+}
